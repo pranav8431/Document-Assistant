@@ -1,0 +1,84 @@
+# ------------------ Python ------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.sqlite3
+*.db
+
+# Virtual environments (project-local)
+venv/
+backend/venv/
+frontend/.venv/
+
+# Env files
+.env
+.env.local
+.env.*
+
+# Packaging
+pip-wheel-metadata/
+
+# ------------------ Distribution / packaging ------------------
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# ------------------ IDEs and editors ------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# ------------------ Node / frontend ------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# NOTE: it's recommended to commit your lockfile (package-lock.json or yarn.lock)
+# If you want to ignore them, uncomment the lines below
+# package-lock.json
+# yarn.lock
+
+# ------------------ ChromaDB persistent storage ------------------
+backend/chroma_db/
+chroma_db/
+
+# ------------------ Uploaded / temp files ------------------
+uploads/
+*.uploaded
+
+# ------------------ Coverage ------------------
+htmlcov/
+.coverage
+.coverage.*
+
+# ------------------ Misc ------------------
+*.pem
+*.key
+
+# ------------------ Logs ------------------
+logs/
+*.log
+
+# ------------------ JetBrains ------------------
+*.iml
+
+# ------------------ Local test artifacts ------------------
+tests/tmp/
+
+# Ignore compiled frontend assets in root dist if present
+dist/
+
+# Allow adding local overrides
+!.gitignore
