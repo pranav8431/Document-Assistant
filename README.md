@@ -22,6 +22,7 @@ pip install -r requirements.txt
 
 # Create .env
 echo "GEMINI_API_KEY=your_key_here" > .env
+#Make sure to add API other wise it will throw an error
 
 uvicorn main:app --reload --port 8000
 ```
