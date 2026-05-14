@@ -36,14 +36,6 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173)
 
-### Quick start (both servers at once)
-
-```bash
-./start.sh
-```
-
----
-
 ## API Reference
 
 | Method | Endpoint | Description |
